@@ -1,0 +1,142 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ nav{
+    display: flex;
+ }
+ 
+ nav > a{
+    border: 1px solid;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+ }
+ 
+ .logo-icon{
+    height:50px;
+    width: 50px; 
+    background-image: url('logo.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+ }
+ 
+ .photo-banner{
+    background-image: url('banner.jpg');
+    height: 578px;
+    width: 1250px;
+    background-position: center;
+    background-size: cover;
+ }
+ 
+ .profile-icon{
+    height:120px;
+    width: 120px; 
+    border: 1px solid;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+ }
+ 
+ .profile-icon-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 80px; 
+    margin-left: 100px; 
+ }
+ 
+ .profile-icon-container > div {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    font-size: large;
+    font-family: Calibri;
+ }
+ 
+ footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right; 
+    box-sizing: border-box; 
+    padding-right: 20px; /* Adjust the gap size as needed */
+ }
+ 
+ .form-row {
+    display: flex;
+    align-items: baseline;
+ }
+ 
+ .gender-options {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    margin-left: 10px;
+ }
+ 
+ .gender-options input[type="radio"] {
+    margin: 0; 
+    vertical-align: middle; 
+ }
+ 
+ .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+ }
+ 
+ .form-container, .output-container {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+ 
+ label {
+    display: block;
+    margin-bottom: 8px;
+ }
+ 
+ .text {
+    vertical-align: bottom;
+  }
+ 
+ input[type="text"], input[type="date"], textarea {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+ }
+ 
+ textarea {
+    height: 100px;
+ }
+ 
+ input[type="radio"] {
+    margin-right: 10px;
+ }
+ 
+ button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ 
+ button:hover {
+    background-color: #45a049;
+ }
+ 
+ .output-container {
+    border-left: 2px solid #000;
+ }
+ 
